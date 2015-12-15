@@ -37,5 +37,18 @@ insert into departament(id_empleado,departamento) values ('0004', 'Recursos Huma
 insert into departament(id_empleado,departamento) values ('0005', 'Sistemas');
 insert into departament(id_empleado,departamento) values ('0006', 'Telecomunicaciones');
 
+employee_employee=# CREATE TABLE employee_hobby(
+id varchar(04),
+name varchar(20),
+description varchar (20)
+);
 
--- ...
+insert into employee_hobby(id,name,description) values ('0001', 'Jessica','leer');
+insert into employee_hobby(id,name,description) values ('0001', 'Jessica','escuchar musica');
+insert into employee_hobby(id,name,description) values ('0002', 'Adalberto','Comer');
+insert into employee_hobby(id,name,description) values ('0002', 'Adalberto','leer');
+insert into employee_hobby(id,name,description) values ('0003', 'Guillermo','Armar Rompecabezas');
+insert into employee_hobby(id,name,description) values ('0003', 'Guillermo','dibujar');
+insert into employee_hobby(id,name,description) values ('0004', 'Daniel','Celular');
+insert into employee_hobby(id,name,description) values ('0004', 'Daniel','redes sociales');
+
