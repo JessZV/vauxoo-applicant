@@ -52,3 +52,5 @@ insert into employee_hobby(id,name,description) values ('0003', 'Guillermo','dib
 insert into employee_hobby(id,name,description) values ('0004', 'Daniel','Celular');
 insert into employee_hobby(id,name,description) values ('0004', 'Daniel','redes sociales');
 
+ALTER TABLE employee ADD COLUMN name_boss varchar(20);
+
