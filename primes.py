@@ -4,13 +4,37 @@ Your module documentation here
 
 
 class PrimeClass(object):
-    """
-    Your class documentation here
-    """
+    def is_prime(numero):
+        
+    for i in range(2,numero):
 
-    def is_prime(self, num_int):
-        """
-        Your method documentation here
-        """
-        # your primes code here
-        return "not implement yet"  # Remove this dummy line
+        if (numero%i)==0:
+
+            
+            return False
+
+    return True
+
+bandera = False 
+
+while True:
+
+    try:
+
+        numero = int(raw_input("inserta un numero (0) salir >> "))
+
+        if numero==0:
+
+            break
+
+        if is_prime(numero):
+        	bandera = True            
+        	print  bandera 
+
+        else:
+	       bandera = False
+               print  bandera 
+
+    except:
+
+        print "\nEl numero tiene que ser entero"
